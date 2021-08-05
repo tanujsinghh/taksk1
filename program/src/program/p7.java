@@ -1,11 +1,11 @@
 package program;
-
 import java.util.Scanner;
 
 public class p7 {
-
+			//to check if the no. is prime or not
 	public static void main(String[] args) {
 		System.out.println("enter a number: ");
+	
 		Scanner sc = new Scanner(System.in);
 	
 		int a = sc.nextInt();
