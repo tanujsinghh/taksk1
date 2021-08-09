@@ -1,0 +1,12 @@
+package program;
+
+public class p10 {
+
+	public static void main(String[] args) {
+		//
+		String s="https://www.wikipedia.org/wiki/";
+		System.out.println(s.replaceAll("^(?:\\/\\/|[^\\/]+)*", ""));
+
+	}
+
+}
